@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "481008158996",
+    "firebase_url": "https://lachitglobalstudies-dbad6-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "lachitglobalstudies-dbad6",
+    "storage_bucket": "lachitglobalstudies-dbad6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481008158996:android:9092f199422dd240665a01",
+        "android_client_info": {
+          "package_name": "com.adnan.lgstudies"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB2RF_0_Uoj4sfQGOOjjAhjei8J0nuFHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

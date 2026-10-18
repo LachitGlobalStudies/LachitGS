@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:id="@+id/tooLbar">
+
+        <LinearLayout
+            android:id="@+id/layoutToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:paddingStart="1dp"
+           >
+
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/user_name"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginStart="1dp"
+                android:textColor="@color/purple_500"
+                >
+
+            </TextView>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_marginStart="50dp"
+                android:id="@+id/user_icon"
+                android:layout_width="40dp"
+                android:src="@drawable/apk_logo"
+                android:layout_height="40dp"
+               />
+
+            <ImageView
+                android:id="@+id/notification_icon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="1dp"
+                android:src="@drawable/notifications" />
+
+
+
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <include layout="@layout/contain_main"/>
+</LinearLayout>

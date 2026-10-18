@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Lachit Global Studies</string>
+    <string name="course_duration">Course_Duration|Lectures|Course_type and for More</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile">Profile</string>
+    <string name="notification">Notification</string>
+    <string name="mybatches">My Batches</string>
+    <string name="download">Download</string>
+    <string name="share">Share</string>
+    <string name="logout">Log Out</string>
+    <string name="livetuiution">Live Tuition</string>
+    <string name="OpenDrawer">Open navigatn drawer</string>
+    <string name="CloseDrawer">Close navigation drawer</string>
+    <string name="upi_bishnuyashgs_airtel">UPI: bishnuyashgs@airtel   </string>
+    <string name="already_paid_the_payment_click_here">Already paid the payment Click Here</string>
+    <string name="click_here_after_payment">Click Here After Payment</string>
+    <string name="address">Lachit Global Studies \n Vill: Garemari (Chata) \n P.O: Paschim Mazdia \n Dist:Barpeta \n State:Assam \n PIN:781305 \n Mobile:9101477006 \n
+    Email:lachitglobalstudies@gmail.com
+    </string>
+
+</resources>

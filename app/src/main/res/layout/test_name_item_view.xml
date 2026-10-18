@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/classes_relative_layout"
+    android:layout_height="80dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/test_series_topic_card"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:cardCornerRadius="12dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="2dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:id="@+id/bar"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:background="#673AB7"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+            <TextView
+
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Test Series"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/bar"
+                android:textSize="30sp"
+                android:id="@+id/test_series_title">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/total_test"
+                android:text="90 Videos"
+                android:layout_below="@+id/test_series_title"
+                android:textSize="10sp"
+                android:layout_marginStart="25dp">
+            </TextView>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

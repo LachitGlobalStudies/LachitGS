@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="10dp"
+        android:layout_width="390dp"
+        android:layout_height="80dp"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:cardBackgroundColor="#D5BDE2E3"
+        app:layout_constraintTop_toTopOf="parent" >
+        <TextView
+            android:id="@+id/anouncement"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:text="Today English class canceled"/>
+        <ImageView
+            android:layout_marginStart="300dp"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/notifications"/>
+
+
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

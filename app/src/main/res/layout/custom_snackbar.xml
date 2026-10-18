@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_snackbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <!-- Add your Snackbar content views here (e.g., TextViews, Buttons, etc.) -->
+    <TextView
+        android:id="@+id/custom_snackbar_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="No internet connection" />
+</LinearLayout>
